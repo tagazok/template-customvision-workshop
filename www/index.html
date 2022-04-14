@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="image-preview">
+            <img id="image" />
+        </div>
+        <div id="ctrl-panel">
+            <input type="file" id="fileUpload" accept="image/png, image/jpeg" /><br />
+            File formats accepted: <span class="tag">jpg</span>, <span class="tag">png</span>
+            <h2 id="result"></h2>
+            Raw result from API
+            <pre id="raw-result"></pre>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
